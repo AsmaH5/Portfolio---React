@@ -1,4 +1,19 @@
-.HomeContainer{
+.Home{
     margin-top: 50px;
     margin: 30px;
+}
+
+.body{
+    background: rgba(0, 0, 0, 0.534) !important;
+}
+
+.skills{
+    margin-top: 300px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
 }

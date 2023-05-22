@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import "../styles/NavTabs.css"
+import "./styles/NavTabs.css"
 import MenuIcon from '@mui/icons-material/Menu';
 
 
