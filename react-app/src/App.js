@@ -6,6 +6,7 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 
+
 function App() {
   return (
     <Router>
@@ -22,7 +23,7 @@ function App() {
           <Route path="contact/*" element={<Contact />} />
         </Routes>
       </div>
-    </Router>
+    </Router>  
   );
 }
 
