@@ -61,7 +61,7 @@ h5{
 }
 
 .projectButton:hover{
-    background: rgba(245, 245, 245, 0.671);
+    background: rgba(245, 245, 245, 0.849);
     
 }
 
@@ -79,7 +79,7 @@ h5{
 } 
 
 .resume:hover{
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.849);
     color: black;  
 
 }
