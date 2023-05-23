@@ -35,8 +35,8 @@ function Home() {
         <div className="section">
             <h2>Asma Hassan </h2>
             <div className="prompt">
-                <h5>Front-end Developer </h5>
-                <h6>Passion for designing and learning!</h6>
+                <h4>Front-end Developer </h4>
+                <h5>Passion for designing and learning!</h5>
 
                 <div className="buttons">
                   <button className="projectButton" onClick={handleProjectsClick}>
