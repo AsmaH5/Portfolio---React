@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/Contact.css";
-
+import myCV from "../AsmaHassanCV.pdf"
 
 const Contact = () => {
   const [formStatus, setFormStatus] = React.useState('Send');
@@ -44,12 +44,19 @@ const Contact = () => {
           {formStatus}
         </button>
       </form>
+      <hr className="line" />
       <div className="contactInfo">
-        <p>Contact Information:</p>
+        <h2 className='contactTitle'>Contact Information</h2>
         <ul>
-          <li>Email address: example@example.com</li>
+          <li>asmasheikhhassan@gmail.com</li>
           <li>
-            {/* <a href= target="_blank" rel="noopener noreferrer">Download CV</a> */}
+            <a href={myCV} target="_blank" rel="noopener noreferrer">Click Here to Download CV</a>
+          </li>
+          <li>
+            <a href="https://github.com/AsmaH5" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/asma-h-757b14155/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
           </li>
         </ul>
       </div>
