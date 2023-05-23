@@ -13,7 +13,7 @@ function FriendCard(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Description:</strong> {props.description}
           </li>
           <li>
             <strong>Location:</strong> {props.location}

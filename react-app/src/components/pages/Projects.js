@@ -2,49 +2,51 @@ import React from "react";
 import Wrapper from "../Wrapper";
 import ProjectCard from "../ProjectCard";
 import projects from "../projects.json";
-
+import "../styles/Projects.css";
 
 function Projects() {
   return (
-    <Wrapper>
-    <h1>Projects</h1>
-    <ProjectCard
-      name={projects[0].name}
-      image={projects[0].image}
-      occupation={projects[0].occupation}
-      location={projects[0].location}
-    />
-    <ProjectCard
-      name={projects[1].name}
-      image={projects[1].image}
-      occupation={projects[1].occupation}
-      location={projects[1].location}
-    />
-    <ProjectCard
-      name={projects[2].name}
-      image={projects[2].image}
-      occupation={projects[2].occupation}
-      location={projects[2].location}
-    />
+    <div>
+      <h2 className="project-title">My Projects</h2>
+      <Wrapper>
         <ProjectCard
-      name={projects[0].name}
-      image={projects[0].image}
-      occupation={projects[0].occupation}
-      location={projects[0].location}
-    />
-    <ProjectCard
-      name={projects[1].name}
-      image={projects[1].image}
-      occupation={projects[1].occupation}
-      location={projects[1].location}
-    />
-    <ProjectCard
-      name={projects[2].name}
-      image={projects[2].image}
-      occupation={projects[2].occupation}
-      location={projects[2].location}
-    />
-  </Wrapper>
+          name={projects[0].name}
+          image={projects[0].image}
+          description={projects[0].description}
+          location={projects[0].location}
+        />
+        <ProjectCard
+          name={projects[1].name}
+          image={projects[1].image}
+          description={projects[1].description}
+          location={projects[1].location}
+        />
+        <ProjectCard
+          name={projects[2].name}
+          image={projects[2].image}
+          description={projects[2].description}
+          location={projects[2].location}
+        />
+        <ProjectCard
+          name={projects[0].name}
+          image={projects[0].image}
+          description={projects[0].description}
+          location={projects[0].location}
+        />
+        <ProjectCard
+          name={projects[1].name}
+          image={projects[1].image}
+          description={projects[1].description}
+          location={projects[1].location}
+        />
+        <ProjectCard
+          name={projects[2].name}
+          image={projects[2].image}
+          description={projects[2].description}
+          location={projects[2].location}
+        />
+      </Wrapper>
+    </div>
   );
 }
 
