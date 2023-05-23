@@ -2,6 +2,11 @@ import React from 'react';
 import "../styles/Contact.css";
 import myCV from "../AsmaHassanCV.pdf"
 
+
+const handleEmailClick = () => {
+  window.location.href = 'mailto:asmasheikhhassan@gmail.com';
+};
+
 const Contact = () => {
   const [formStatus, setFormStatus] = React.useState('Send');
 
@@ -48,9 +53,9 @@ const Contact = () => {
       <div className="contactInfo">
         <h2 className='contactTitle'>Contact Information</h2>
         <ul>
-          <li>asmasheikhhassan@gmail.com</li>
+          <li onClick={handleEmailClick} style={{ cursor: 'pointer' }}>asmasheikhhassan@gmail.com</li>
           <li>
-            <a href={myCV} target="_blank" rel="noopener noreferrer">Click Here to Download CV</a>
+            <a href={myCV} target="_blank" rel="noopener noreferrer">Download CV</a>
           </li>
           <li>
             <a href="https://github.com/AsmaH5" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
