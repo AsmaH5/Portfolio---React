@@ -1,51 +1,56 @@
 import React from "react";
 import "../styles/Home.css"
-import myImage from '../assets/images/Programmer.png';
-import myLogo from '../assets/images/animeavatar2.png';
+import myLogo from '../assets/images/Image1.png';
+
 
 
 function Home() {
+ 
+  const handleProjectsClick = () => {
+    // Navigate to the project page
+    window.location.href = "../projects";
+  };
+
+  const handleResumeClick = () => {
+    // Download the resume document
+    const link = document.createElement("a");
+    link.href =  process.env.PUBLIC_URL + "/AsmaHassanCV.pdf";
+    link.download = "Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
+    
     <div className="Home">
       <div className="about">
-      <div>
-            <img className="avatar" src={myLogo} alt="hijabi with glasses avatar" />
-        </div>
+
+      <div className="avatarwrapper">
+        <div className="image-container">
+          <img src={myLogo} alt="hijabi with glasses avatar" className="avatar"/>
+        </div>  
+      </div>
+
         <div className="section">
-            <h2>Hi, My name is Asma Hassan </h2>
+            <h2>Asma Hassan </h2>
             <div className="prompt">
-                <p>
-                I'm a Front-end Developer with a passion for designing and learning!
-                </p>
-                <button className="projectButton"/>
-                <button className="resume"/>
+                <h5>Front-end Developer </h5>
+
+                <div className="buttons">
+                  <button className="projectButton" onClick={handleProjectsClick}>
+                    Projects
+                  </button>
+                  <button className="resume" onClick={handleResumeClick}>
+                    Resume
+                  </button>
+                </div>
+
+
             </div>
         </div>
 
       </div>
-      {/* <hr className="divider" />
-
-      <div className="skills">
-        <h1>Skills</h1>
-
-        <div className="content">
-        <ul className="list">
-          <li className="item">HTML</li>
-          <li className="item">CSS</li>
-          <li className="item">JavaScript</li>
-          <li className="item">Git</li>
-          <li className="item">UX</li>
-          <li className="item">Bootstrap</li>
-          <li className="item">APIs</li>
-          <li className="item">JQuery</li>
-          <li className="item">JSON</li>
-          <li className="item">React</li>
-        </ul>
-        <div className="programmer" >
-          <img src={myImage} alt="programmer" />
-        </div> 
-        </div>
-      </div> */}
     </div>
   );
 }
