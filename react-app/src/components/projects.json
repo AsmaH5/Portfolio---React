@@ -1,51 +1,51 @@
 [
     {
       "id": 1,
-      "name": "SpongeBob",
-      "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-      "description": "Fry Cook",
-      "linkWeb": "A Pineapple Under the Sea",
-      "link2": "A Pineapple Under the Sea"
+      "name": "Coding Knowledge Quiz",
+      "image": "https://user-images.githubusercontent.com/97250633/228384432-83155b22-a94e-4a71-b413-1900e070a34a.png",
+      "description": "This is a timed coding quiz with multiple-choice questions",
+      "repo": "https://github.com/AsmaH5/Coding-Knowledge-Quiz",
+      "link": "https://asmah5.github.io/Coding-Knowledge-Quiz/"
     },
     {
       "id": 2,
-      "name": "Mr. Krabs",
-      "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-      "description": "Fry Cook",
-      "linkWeb": "A Pineapple Under the Sea",
-      "link2": "A Pineapple Under the Sea"
+      "name": "Happy Tummy",
+      "image": "https://github.com/AsmaH5/Edamam-Recipe-Website-Group-1/blob/main/Assets/Images/Screenshot%202023-04-26%20at%2020.06.47.png?raw=true",
+      "description": "This is recipe site that helps individuals find healthy & delicious recipes.",
+      "repo": "https://github.com/AsmaH5/Edamam-Recipe-Website-Group-1",
+      "link": "https://asmah5.github.io/Edamam-Recipe-Website-Group-1/"
     },
     {
       "id": 3,
-      "name": "Squidward",
-      "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-      "description": "Fry Cook",
-      "linkWeb": "A Pineapple Under the Sea",
-      "link2": "A Pineapple Under the Sea"
+      "name": "Work Day Scheduler",
+      "image": "https://user-images.githubusercontent.com/97250633/230135618-43d749fb-436b-4b99-9c83-97902a478225.png",
+      "description": "A simple calendar app for scheduling your day.",
+      "repo": "https://github.com/AsmaH5/Work-Day-Scheduler",
+      "link": "https://asmah5.github.io/Work-Day-Scheduler/"
     },
     {
       "id": 4,
-      "name": "Squidward",
-      "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-      "description": "Fry Cook",
-      "linkWeb": "A Pineapple Under the Sea",
-      "link2": "A Pineapple Under the Sea"
+      "name": "Luxury Spa Landing Page",
+      "image": "https://user-images.githubusercontent.com/97250633/236117822-1698cb06-69d9-42aa-ab26-f93dc8c3f642.png",
+      "description": "This is a responsive Luxury spa landing page.",
+      "repo": "https://github.com/AsmaH5/Luxury-Spa-Landing-Page",
+      "link": "https://asmah5.github.io/Luxury-Spa-Landing-Page/"
     },
     {
       "id": 5,
-      "name": "Squidward",
-      "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-      "description": "Fry Cook",
-      "linkWeb": "A Pineapple Under the Sea",
-      "link2": "A Pineapple Under the Sea"
+      "name": "Password-Generator",
+      "image": "https://user-images.githubusercontent.com/97250633/226691274-df84e528-fb71-483e-b457-c5808b0af435.png",
+      "description": "Generates a password when the button is clicked.",
+      "repo": "https://github.com/AsmaH5/Password-Generator---JavaScript",
+      "link": "https://asmah5.github.io/Password-Generator---JavaScript/"
     },
     {
       "id": 6,
-      "name": "Squidward",
-      "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-      "description": "Fry Cook",
-      "linkWeb": "A Pineapple Under the Sea",
-      "link2": "A Pineapple Under the Sea"
+      "name": "Weather Dashboard",
+      "image": "https://user-images.githubusercontent.com/97250633/232922549-7cc55f15-ebeb-41a9-9b80-2ac6890a314e.png",
+      "description": "When a user searches for a city they are presented with current and future conditions for that city.",
+      "repo": "https://github.com/AsmaH5/Weather-Dashboard",
+      "link": "https://asmah5.github.io/Weather-Dashboard/"
     }
   ]
   

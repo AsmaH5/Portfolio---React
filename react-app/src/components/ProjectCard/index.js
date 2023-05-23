@@ -10,13 +10,16 @@ function FriendCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>Title:</strong> {props.name}
           </li>
           <li>
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Location:</strong> {props.location}
+            <strong>GitHub Repo:</strong> {props.repo}
+          </li>
+          <li>
+            <strong>Deployed Link:</strong> {props.link}
           </li>
         </ul>
       </div>
