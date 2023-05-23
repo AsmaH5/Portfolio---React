@@ -36,6 +36,7 @@ function Home() {
             <h2>Asma Hassan </h2>
             <div className="prompt">
                 <h5>Front-end Developer </h5>
+                <h6>Passion for designing and learning!</h6>
 
                 <div className="buttons">
                   <button className="projectButton" onClick={handleProjectsClick}>

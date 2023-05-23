@@ -19,7 +19,7 @@ function Footer() {
         <LinkedInIcon />
         </a>
       </div>
-      <p> &copy; 2023 asmahassan.com</p>
+      <p> &copy; 2023 ¦ Asma Hassan</p>
     </div>
     
   );

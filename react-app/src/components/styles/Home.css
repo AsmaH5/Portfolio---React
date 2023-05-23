@@ -25,6 +25,9 @@ h5{
     color: rgba(245, 245, 245, 0.938);
 }
 
+h6{
+    color: rgba(245, 245, 245, 0.87); 
+}
 .avatarwrapper{
     display: flex !important;
     justify-content: center;
