@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 
-function FriendCard(props) {
+function ProjectCard(props) {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleHover = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
-    <div className="card">
+    <div
+      className={`card ${isHovered ? "hovered" : ""}`}
+      onMouseEnter={handleHover}
+      onMouseLeave={handleMouseLeave}
+    >
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
@@ -16,10 +30,20 @@ function FriendCard(props) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>GitHub Repo:</strong> {props.repo}
+            <button
+              className="link-button"
+              onClick={() => window.open(props.repo, "_blank")}
+            >
+              GitHub Repo
+            </button>
           </li>
           <li>
-            <strong>Deployed Link:</strong> {props.link}
+            <button
+              className="link-button"
+              onClick={() => window.open(props.link, "_blank")}
+            >
+              Deployed Link
+            </button>
           </li>
         </ul>
       </div>
@@ -27,4 +51,4 @@ function FriendCard(props) {
   );
 }
 
-export default FriendCard;
+export default ProjectCard;
